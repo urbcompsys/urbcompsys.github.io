@@ -1,0 +1,76 @@
+
+table {
+    width: 100%;
+  }
+
+table tr:nth-child(even) th {
+    font-weight: normal;
+}
+
+table th,
+table td {
+    padding: 0.5rem 1rem;
+  }
+  
+table th {
+    width: 10%;
+    font-weight: normal;
+    border-top: thin dotted #ccc;
+}
+  
+table td {
+    width: 90%;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    border-radius: 0.2rem;
+    transition: opacity 0.3s ease;
+    font-weight: bold;
+}
+  
+table td > span {
+    display: block;
+    font-weight: normal;
+}
+
+table td > ul {
+    font-weight: normal;
+}
+
+.title-talk {
+    font-style: italic;
+    font-size: 0.85rem;
+}
+
+.abstract{
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.author {
+    font-style: italic;
+}
+  
+.keynote {
+    background-color: #38A3A5;
+    color: cornsilk;
+  }
+  
+.event {
+    background-color: #22577A;
+    color: cornsilk;
+  }
+  
+  
+.oral {
+    background-color: #57CC99;
+  }
+
+.btn_extend {
+    border-radius: 10%;
+    background: #22577A;
+    margin-left: 0.3rem;
+    width: auto;
+    aspect-ratio: 1/1;
+}
